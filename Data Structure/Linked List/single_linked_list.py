@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*- 
+
+
 class Node(object):
     def __init__(self, data, nextNode=None):
         self.data = data
