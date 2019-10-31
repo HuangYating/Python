@@ -7,8 +7,8 @@ class AVLNode:
 
     Attributes:
         data: The data stored in the node
-        left: The left children
-        right: The right children
+        left_child: The left children
+        right_child: The right children
         height: The height of the tree
         balance_factor: balance_factor = the height of the left children 
                                         - the height of the right children,
